@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<WatchFace width="450" height="450">
+    <Metadata key="CLOCK_TYPE" value="DIGITAL" />
+    <Metadata key="PREVIEW_TIME" value="10:08:32" />
+
+    <UserConfigurations>
+        <ColorConfiguration id="themeColor"
+            displayName="@string/theme_label"
+            defaultValue="lcars">
+            <!-- themeColor.0 = Text highlight (White)
+                 themeColor.1 = Main accents (Lavender)
+                 themeColor.2 = Deep accents (Blue-gray)
+            -->
+            <ColorOption id="lcars" displayName="Classic LCARS" colors="#ffffffff #ffcc99cc #ff9999ff" />
+            <ColorOption id="lilac" displayName="@string/theme_lilac" colors="#ffeeedfe #ff7f77dd #ff534ab7" />
+            <ColorOption id="gold"  displayName="@string/theme_gold"  colors="#fffff4d6 #ffe8b04c #ff9c7220" />
+            <ColorOption id="mint"  displayName="@string/theme_mint"  colors="#ffe6fff4 #ff5fd9b0 #ff2e9575" />
+            <ColorOption id="sky"   displayName="@string/theme_sky"   colors="#ffe4f2ff #ff6fb4e6 #ff2f6b96" />
+            <ColorOption id="rose"  displayName="@string/theme_rose"  colors="#ffffe6ee #ffe68aa0 #ff9c3f5a" />
+            <ColorOption id="amber" displayName="@string/theme_amber" colors="#ffffe6c2 #fff29a3a #ff8a5612" />
+            <ColorOption id="mono"  displayName="@string/theme_mono"  colors="#ffffffff #ffcccccc #ff888888" />
+        </ColorConfiguration>
+    </UserConfigurations>
+
+    <Scene backgroundColor="#ff0d0823">
+
+        <!-- ==================== LCARS Elbow Backbone ==================== -->
+        <!-- 1. Outer Elbow Shape (Lavender / Mid-accent) -->
+        <PartDraw x="0" y="0" width="450" height="450" tintColor="[CONFIGURATION.themeColor.1]">
+            <RoundRectangle x="10" y="60" width="200" height="330" cornerRadiusX="50" cornerRadiusY="50">
+                <Fill color="#ffffffff" />
+            </RoundRectangle>
+        </PartDraw>
+
+        <!-- 2. Masks to cut out the inner and right parts of the Elbow -->
+        <PartDraw x="0" y="0" width="450" height="450">
+            <!-- Inner cutout to create the "C" thickness -->
+            <RoundRectangle x="40" y="90" width="200" height="270" cornerRadiusX="20" cornerRadiusY="20">
+                <Fill color="#ff0d0823" />
+            </RoundRectangle>
+            <!-- Right mask to cleanly slice the elbow off -->
+            <Rectangle x="130" y="0" width="320" height="450">
+                <Fill color="#ff0d0823" />
+            </Rectangle>
+        </PartDraw>
+
+        <!-- ==================== Starfield ==================== -->
+        <!-- Placed after masks so stars aren't cut out by the background masks -->
+        <PartDraw x="0" y="0" width="450" height="450">
+            <Ellipse x="22"  y="22"  width="4" height="4"><Fill color="#80ffffff" /></Ellipse>
+            <Ellipse x="97"  y="37"  width="5" height="5"><Fill color="#66ffffff" /></Ellipse>
+            <Ellipse x="240" y="30"  width="4" height="4"><Fill color="#99ffffff" /></Ellipse>
+            <Ellipse x="390" y="18"  width="4" height="4"><Fill color="#b3ffffff" /></Ellipse>
+            <Ellipse x="423" y="52"  width="3" height="3"><Fill color="#59ffffff" /></Ellipse>
+            <Ellipse x="30"  y="390" width="4" height="4"><Fill color="#66ffffff" /></Ellipse>
+            <Ellipse x="60"  y="346" width="3" height="3"><Fill color="#4cffffff" /></Ellipse>
+            <Ellipse x="405" y="180" width="3" height="3"><Fill color="#4cffffff" /></Ellipse>
+            <Ellipse x="416" y="405" width="4" height="4"><Fill color="#99ffffff" /></Ellipse>
+            <Ellipse x="345" y="420" width="4" height="4"><Fill color="#66ffffff" /></Ellipse>
+            <Ellipse x="240" y="400" width="3" height="3"><Fill color="#59ffffff" /></Ellipse>
+            <Ellipse x="15"  y="200" width="3" height="3"><Fill color="#4cffffff" /></Ellipse>
+        </PartDraw>
+
+        <!-- ==================== Top Bars & Bottom Bars ==================== -->
+        <!-- Top bar segments (Lavender) with gap for text -->
+        <PartDraw x="0" y="0" width="450" height="450" tintColor="[CONFIGURATION.themeColor.1]">
+            <Rectangle x="135" y="60" width="60" height="30">
+                <Fill color="#ffffffff" />
+            </Rectangle>
+            <Rectangle x="355" y="60" width="95" height="30">
+                <Fill color="#ffffffff" />
+            </Rectangle>
+        </PartDraw>
+
+        <!-- Bottom bar (Blue-gray) -->
+        <PartDraw x="0" y="0" width="450" height="450" tintColor="[CONFIGURATION.themeColor.2]">
+            <Rectangle x="135" y="360" width="315" height="30">
+                <Fill color="#ffffffff" />
+            </Rectangle>
+        </PartDraw>
+
+        <!-- ==================== BRIGHTDATE label ==================== -->
+        <!-- Nestled in the top bar cutout -->
+        <PartText x="195" y="60" width="160" height="30" tintColor="[CONFIGURATION.themeColor.2]">
+            <Text align="CENTER">
+                <Font family="sans-serif-condensed" size="20" weight="BOLD" color="#ffffffff"><![CDATA[BRIGHTDATE]]></Font>
+            </Text>
+        </PartText>
+
+        <!-- ==================== Sub-process Clutter (Corners) ==================== -->
+        <PartText x="300" y="92" width="90" height="20" tintColor="[CONFIGURATION.themeColor.1]">
+            <Text align="END">
+                <Font family="sans-serif-condensed-light" size="14" weight="BOLD" color="#ffffffff">
+                    <Template>02-%02d%02d<Parameter expression="[HOUR_0_23]"/><Parameter expression="[MINUTE]"/></Template>
+                </Font>
+            </Text>
+        </PartText>
+
+        <!-- Hardcoded Apricot Accent! -->
+        <PartText x="300" y="340" width="90" height="20">
+            <Text align="END">
+                <Font family="sans-serif-condensed-light" size="14" weight="BOLD" color="#ffFF9900"><![CDATA[74-92]]></Font>
+            </Text>
+        </PartText>
+
+        <!-- ==================== Functional Pills (Far Left) ==================== -->
+        <PartDraw x="0" y="0" width="450" height="450" tintColor="[CONFIGURATION.themeColor.2]">
+            <RoundRectangle x="50" y="160" width="30" height="15" cornerRadiusX="7" cornerRadiusY="7">
+                <Fill color="#ffffffff" />
+            </RoundRectangle>
+        </PartDraw>
+        <!-- Hardcoded Apricot Accent pill -->
+        <PartDraw x="0" y="0" width="450" height="450">
+            <RoundRectangle x="50" y="260" width="30" height="15" cornerRadiusX="7" cornerRadiusY="7">
+                <Fill color="#ffFF9900" />
+            </RoundRectangle>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" tintColor="[CONFIGURATION.themeColor.1]">
+            <RoundRectangle x="50" y="180" width="30" height="15" cornerRadiusX="7" cornerRadiusY="7">
+                <Fill color="#ffffffff" />
+            </RoundRectangle>
+        </PartDraw>
+        <PartDraw x="0" y="0" width="450" height="450" tintColor="[CONFIGURATION.themeColor.0]">
+            <RoundRectangle x="50" y="200" width="30" height="55" cornerRadiusX="7" cornerRadiusY="7">
+                <Fill color="#ffffffff" />
+            </RoundRectangle>
+        </PartDraw>
+
+        <!-- ==================== Big integer: floor(BrightDate) ==================== -->
+        <!-- Shifted right for functional asymmetry -->
+        <PartText x="80" y="150" width="310" height="150" tintColor="[CONFIGURATION.themeColor.0]">
+            <Text align="END">
+                <Font family="sans-serif-condensed" size="130" weight="BOLD" color="#ffffffff">
+                    <Template>%d<Parameter expression="round(floor([MINUTES_SINCE_EPOCH] / 1440.0 - 10957.49919926))" /></Template>
+                </Font>
+            </Text>
+        </PartText>
+
+        <!-- ==================== .fraction: 5 digits ==================== -->
+        <PartText x="80" y="290" width="310" height="60" tintColor="[CONFIGURATION.themeColor.1]">
+            <Text align="END">
+                <Font family="sans-serif-condensed" size="54" weight="BOLD" color="#ffffffff">
+                    <Template>.%05d<Parameter expression="round(fract([MINUTES_SINCE_EPOCH] / 1440.0 - 10957.49919926) * 100000) % 100000" /></Template>
+                </Font>
+            </Text>
+        </PartText>
+
+    </Scene>
+</WatchFace>

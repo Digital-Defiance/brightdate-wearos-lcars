@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BrightDate</string>
+
+    <!-- Watch face editor: color configuration. -->
+    <string name="theme_label">Theme</string>
+    <string name="theme_gold">Gold</string>
+    <string name="theme_mint">Mint</string>
+    <string name="theme_sky">Sky</string>
+    <string name="theme_rose">Rose</string>
+    <string name="theme_lilac">Lilac</string>
+    <string name="theme_amber">Amber</string>
+    <string name="theme_mono">Mono</string>
+</resources>

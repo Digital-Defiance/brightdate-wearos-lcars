@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 262.62 262.62">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1, .st2 {
+        fill: #534ab7;
+      }
+
+      .st3 {
+        fill: #eeedfe;
+        font-size: 70.03px;
+      }
+
+      .st3, .st2, .st4 {
+        font-family: DINAlternate-Bold, 'DIN Alternate';
+        font-weight: 700;
+      }
+
+      .st3, .st2, .st4, .st5, .st6, .st7, .st8, .st9 {
+        isolation: isolate;
+      }
+
+      .st2 {
+        font-size: 15.76px;
+        letter-spacing: .33em;
+      }
+
+      .st4 {
+        font-size: 31.51px;
+        letter-spacing: .05em;
+      }
+
+      .st4, .st10 {
+        fill: #7f77dd;
+      }
+
+      .st11 {
+        clip-path: url(#clippath);
+      }
+
+      .st12 {
+        fill: #0d0823;
+      }
+
+      .st5 {
+        opacity: .3;
+      }
+
+      .st5, .st6, .st7, .st8, .st9 {
+        fill: #fff;
+      }
+
+      .st6 {
+        opacity: .35;
+      }
+
+      .st7 {
+        opacity: .6;
+      }
+
+      .st8 {
+        opacity: .5;
+      }
+
+      .st9 {
+        opacity: .4;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" width="262.62" height="262.62" rx="59.53" ry="59.53"/>
+    </clipPath>
+  </defs>
+  <rect class="st12" x="0" y="0" width="262.62" height="262.62" rx="59.53" ry="59.53" data-darkreader-inline-fill=""/>
+  <g class="st11">
+    <circle class="st8" cx="13.13" cy="13.13" r="1.23" data-darkreader-inline-fill=""/>
+    <circle class="st9" cx="56.9" cy="21.89" r="1.58" data-darkreader-inline-fill="" transform="translate(26.18 74.55) rotate(-80.78)"/>
+    <circle class="st7" cx="227.61" cy="10.5" r="1.31" data-darkreader-inline-fill=""/>
+    <circle class="st6" cx="246.86" cy="30.64" r="1.14" data-darkreader-inline-fill=""/>
+    <circle class="st9" cx="17.51" cy="227.61" r="1.23" data-darkreader-inline-fill=""/>
+    <circle class="st8" cx="243.36" cy="243.36" r="1.4" data-darkreader-inline-fill=""/>
+    <circle class="st9" cx="140.06" cy="17.51" r="1.05" data-darkreader-inline-fill=""/>
+    <circle class="st6" cx="201.34" cy="245.11" r="1.14" data-darkreader-inline-fill=""/>
+    <circle class="st5" cx="35.02" cy="201.34" r=".88" data-darkreader-inline-fill=""/>
+    <circle class="st5" cx="236.36" cy="105.05" r=".88" data-darkreader-inline-fill=""/>
+    <rect class="st10" x="0" y="0" width="262.62" height="4.38" data-darkreader-inline-fill=""/>
+    <rect class="st1" x="0" y="258.24" width="262.62" height="4.38" data-darkreader-inline-fill=""/>
+    <text class="st2" data-darkreader-inline-fill="" transform="translate(64.85 61.28)"><tspan x="0" y="0">BRIGHTDATE</tspan></text>
+    <text class="st3" data-darkreader-inline-fill="" transform="translate(64.08 157.57)"><tspan x="0" y="0">9622</tspan></text>
+    <text class="st4" data-darkreader-inline-fill="" transform="translate(85.38 218.85)"><tspan x="0" y="0">.50417</tspan></text>
+  </g>
+</svg>

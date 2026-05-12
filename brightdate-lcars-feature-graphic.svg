@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 500">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 11px;
+        letter-spacing: .09em;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st10 {
+        font-family: RobotoMono-Regular, 'Roboto Mono';
+      }
+
+      .st0, .st17, .st11 {
+        fill: #afa9ec;
+      }
+
+      .st1 {
+        font-size: 86px;
+      }
+
+      .st1, .st2 {
+        fill: #eeedfe;
+      }
+
+      .st18, .st3, .st4, .st5 {
+        fill: #534ab7;
+      }
+
+      .st19 {
+        fill: #100c2a;
+      }
+
+      .st2 {
+        font-size: 80px;
+      }
+
+      .st3 {
+        font-size: 14px;
+        letter-spacing: .43em;
+      }
+
+      .st4 {
+        font-size: 13px;
+        letter-spacing: .38em;
+      }
+
+      .st5, .st7, .st16 {
+        opacity: .4;
+      }
+
+      .st6, .st7, .st20, .st10 {
+        fill: #7f77dd;
+      }
+
+      .st6, .st8, .st9 {
+        opacity: .7;
+      }
+
+      .st21 {
+        fill: #3c3489;
+      }
+
+      .st22 {
+        fill: #26215c;
+      }
+
+      .st8 {
+        stroke: #7f77dd;
+      }
+
+      .st8, .st9 {
+        stroke-width: 2px;
+      }
+
+      .st8, .st9, .st23 {
+        fill: none;
+      }
+
+      .st9, .st23 {
+        stroke: #534ab7;
+      }
+
+      .st24 {
+        fill: #1a1540;
+      }
+
+      .st10 {
+        font-size: 38px;
+        letter-spacing: .03em;
+      }
+
+      .st25 {
+        fill: #0d0823;
+      }
+
+      .st11 {
+        font-family: Helvetica-Light, Helvetica;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: .05em;
+      }
+
+      .st12 {
+        opacity: .3;
+      }
+
+      .st12, .st13, .st14, .st15, .st16 {
+        fill: #fff;
+      }
+
+      .st13 {
+        opacity: .25;
+      }
+
+      .st14 {
+        opacity: .35;
+      }
+
+      .st15 {
+        opacity: .45;
+      }
+    </style>
+  </defs>
+  <rect class="st25" y="0" width="1024" height="500"/>
+  <circle class="st16" cx="48" cy="42" r="1.5"/>
+  <circle class="st14" cx="130" cy="88" r="1.2"/>
+  <circle class="st12" cx="220" cy="35" r="1.8"/>
+  <circle class="st15" cx="310" cy="72" r="1"/>
+  <circle class="st14" cx="420" cy="28" r="1.4"/>
+  <circle class="st12" cx="560" cy="55" r="1.2"/>
+  <circle class="st16" cx="680" cy="38" r="1.6"/>
+  <circle class="st14" cx="780" cy="80" r="1"/>
+  <circle class="st15" cx="880" cy="22" r="1.3"/>
+  <circle class="st12" cx="970" cy="65" r="1.5"/>
+  <circle class="st14" cx="60" cy="440" r="1.2"/>
+  <circle class="st12" cx="160" cy="468" r="1.5"/>
+  <circle class="st15" cx="290" cy="455" r="1"/>
+  <circle class="st14" cx="740" cy="462" r="1.3"/>
+  <circle class="st12" cx="860" cy="445" r="1.6"/>
+  <circle class="st16" cx="960" cy="475" r="1.2"/>
+  <circle class="st13" cx="75" cy="200" r="1"/>
+  <circle class="st13" cx="950" cy="280" r="1.2"/>
+  <circle class="st12" cx="995" cy="155" r="1"/>
+  <circle class="st13" cx="30" cy="320" r="1.3"/>
+  <circle class="st12" cx="500" cy="440" r="1"/>
+  <circle class="st13" cx="640" cy="470" r="1.2"/>
+  <rect class="st19" x="60" y="70" width="260" height="360" rx="40" ry="40"/>
+  <path class="st20" d="M63,70h254c1.66,0,3,1.34,3,3h0c0,1.66-1.34,3-3,3H63c-1.66,0-3-1.34-3-3h0c0-1.66,1.34-3,3-3Z"/>
+  <path class="st18" d="M63,424h254c1.66,0,3,1.34,3,3h0c0,1.66-1.34,3-3,3H63c-1.66,0-3-1.34-3-3h0c0-1.66,1.34-3,3-3Z"/>
+  <text class="st4" transform="translate(125.99 148)"><tspan x="0" y="0">BRIGHTDATE</tspan></text>
+  <text class="st1" transform="translate(86.78 272)"><tspan x="0" y="0">9622</tspan></text>
+  <text class="st10" transform="translate(118.59 336)"><tspan x="0" y="0">.50417</tspan></text>
+  <line class="st8" x1="68" y1="84" x2="90" y2="84"/>
+  <line class="st8" x1="68" y1="84" x2="68" y2="106"/>
+  <line class="st8" x1="312" y1="84" x2="290" y2="84"/>
+  <line class="st8" x1="312" y1="84" x2="312" y2="106"/>
+  <line class="st9" x1="68" y1="416" x2="90" y2="416"/>
+  <line class="st9" x1="68" y1="416" x2="68" y2="394"/>
+  <line class="st9" x1="312" y1="416" x2="290" y2="416"/>
+  <line class="st9" x1="312" y1="416" x2="312" y2="394"/>
+  <rect class="st22" x="370" y="70" width="594" height="10"/>
+  <rect class="st18" x="370" y="70" width="180" height="10"/>
+  <rect class="st22" x="370" y="420" width="594" height="10"/>
+  <rect class="st21" x="784" y="420" width="180" height="10"/>
+  <path class="st17" d="M376,80h0c3.31,0,6,2.69,6,6v78c0,3.31-2.69,6-6,6h0c-3.31,0-6-2.69-6-6v-78c0-3.31,2.69-6,6-6Z"/>
+  <path class="st20" d="M376,178h0c3.31,0,6,2.69,6,6v38c0,3.31-2.69,6-6,6h0c-3.31,0-6-2.69-6-6v-38c0-3.31,2.69-6,6-6Z"/>
+  <path class="st18" d="M376,236h0c3.31,0,6,2.69,6,6v172c0,3.31-2.69,6-6,6h0c-3.31,0-6-2.69-6-6v-172c0-3.31,2.69-6,6-6Z"/>
+  <text class="st3" transform="translate(537.59 150)"><tspan x="0" y="0">WEAROS WATCH FACE</tspan></text>
+  <text class="st2" transform="translate(419.96 248)"><tspan x="0" y="0">BrightDate</tspan></text>
+  <rect class="st6" x="400" y="264" width="520" height="3"/>
+  <text class="st11" transform="translate(481.33 312)"><tspan x="0" y="0">One universal scalar. No timezones.</tspan></text>
+  <path class="st24" d="M416,352h122c9.94,0,18,8.06,18,18h0c0,9.94-8.06,18-18,18h-122c-9.94,0-18-8.06-18-18h0c0-9.94,8.06-18,18-18Z"/>
+  <path class="st23" d="M416,353h122c9.39,0,17,7.61,17,17h0c0,9.39-7.61,17-17,17h-122c-9.39,0-17-7.61-17-17h0c0-9.39,7.61-17,17-17Z"/>
+  <text class="st0" transform="translate(416.19 375)"><tspan x="0" y="0">J2000.0 ANCHORED</tspan></text>
+  <path class="st24" d="M586,352h102c9.94,0,18,8.06,18,18h0c0,9.94-8.06,18-18,18h-102c-9.94,0-18-8.06-18-18h0c0-9.94,8.06-18,18-18Z"/>
+  <path class="st23" d="M586,353h102c9.39,0,17,7.61,17,17h0c0,9.39-7.61,17-17,17h-102c-9.39,0-17-7.61-17-17h0c0-9.39,7.61-17,17-17Z"/>
+  <text class="st0" transform="translate(587.59 375)"><tspan x="0" y="0">TAI SUBSTRATE</tspan></text>
+  <path class="st24" d="M736,352h112c9.94,0,18,8.06,18,18h0c0,9.94-8.06,18-18,18h-112c-9.94,0-18-8.06-18-18h0c0-9.94,8.06-18,18-18Z"/>
+  <path class="st23" d="M736,353h112c9.39,0,17,7.61,17,17h0c0,9.39-7.61,17-17,17h-112c-9.39,0-17-7.61-17-17h0c0-9.39,7.61-17,17-17Z"/>
+  <text class="st0" transform="translate(742.59 375)"><tspan x="0" y="0">TIMEZONE-FREE</tspan></text>
+  <rect class="st7" y="0" width="1024" height="3"/>
+  <rect class="st5" y="497" width="1024" height="3"/>
+</svg>
