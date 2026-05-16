@@ -16,13 +16,13 @@ android {
     // enableKotlin = false // This property is not recognized by AGP and is causing an error.
     // The `android:hasCode="false"` in AndroidManifest.xml already indicates no code.
 
-    namespace = "org.brightchain.brightdatelcars"
-    compileSdk = 34
+    namespace = "org.digitaldefiance.brightdate.lcars"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "org.brightchain.brightdatelcars"
-        minSdk = 33
-        targetSdk = 34
+        applicationId = "org.digitaldefiance.brightdate.lcars"
+        minSdk = 35
+        targetSdk = 35
         versionCode = 9
         versionName = "1.0.9"
     }
