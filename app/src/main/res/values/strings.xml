@@ -1,13 +1,12 @@
 <resources>
-    <string name="app_name">BrightDate</string>
+    <string name="app_name">BrightDate LCARS</string>
 
     <!-- Watch face editor: color configuration. -->
     <string name="theme_label">Theme</string>
-    <string name="theme_gold">Gold</string>
-    <string name="theme_mint">Mint</string>
-    <string name="theme_sky">Sky</string>
-    <string name="theme_rose">Rose</string>
-    <string name="theme_lilac">Lilac</string>
-    <string name="theme_amber">Amber</string>
-    <string name="theme_mono">Mono</string>
+    <string name="theme_lcars">Classic LCARS</string>
+    <string name="theme_tng_ops">TNG Ops (Red/Gold)</string>
+    <string name="theme_voyager">Voyager (Teal/Blue)</string>
+    <string name="theme_ds9">DS9 (Purple/Blue)</string>
+    <string name="theme_nemesis">Nemesis (Blue/Gray)</string>
+    <string name="theme_picard">Picard (Crimson/Black)</string>
 </resources>
